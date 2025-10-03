@@ -1,0 +1,21 @@
+\begin{table}[ht]
+\centering
+\caption{OLS Estimates of $\beta_X$ under Different Control Sets}
+\label{tab:regressions}
+\begin{tabular}{|r|r|r|}
+  \hline
+  \textbf{Controls} & \textbf{β\_X} & \textbf{SE} \\
+  \textit{String} & \textit{Float64} & \textit{Float64} \\
+  \hline
+  (none) & 1.703 & 0.007 \\
+  U1 & 1.9909 & 0.01 \\
+  U2 & 1.4918 & 0.0049 \\
+  Z & 0.7922 & 0.0099 \\
+  U1 + U2 & 1.4966 & 0.0085 \\
+  Z + U1 & 0.9924 & 0.0124 \\
+  Z + U2 & 1.0069 & 0.0082 \\
+  Z + U1 + U2 & 1.0078 & 0.01 \\
+  \hline
+\end{tabular}
+
+\end{table}
